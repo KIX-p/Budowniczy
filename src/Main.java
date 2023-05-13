@@ -27,5 +27,7 @@ public class Main {
 
         ManualBuilder builderz = new ManualBuilder();
         director.makeMazdaRX7(builderz);
+        
+         CarManual manual = builder.getContent();
     }
 }
